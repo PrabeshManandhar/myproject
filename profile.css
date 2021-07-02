@@ -4,20 +4,18 @@ body{
 }
 nav {
     background-color: #ffff;
-    height: 3.3em;
-    line-height: 3.3em;
-    margin: 0 13.5em;
-    
+    height: 3.4em;
+    line-height: 3.6em;
+    margin: 0 9.5em;  
     
 }
 .logo{
     text-decoration: none ;
     /* position: fixed; */
+    margin-left: 50px;
     
     
 }   
-
-
 
 /* .logo>img>input>span>a>i{
     
@@ -31,9 +29,9 @@ header{
     flex-direction: row;
     border-bottom: 0.1px solid #dbdbdb;
     position: fixed;
-    flex-grow: inherit;
-    flex-shrink: inherit;
-
+    flex-grow: 1;
+    flex-shrink: 1;
+   
 }
 
 .logo>img{
@@ -42,9 +40,9 @@ header{
 }
 .search{
     background-color: #fafafa;
-    margin-left: 19em;
-    height: 1.9em;
-    width: 15.5em;
+    margin-left: 18em;
+    height: 1.7em;
+    width: 15.2em;
     
     border: 1px solid #dbdbdb;
     
@@ -57,35 +55,30 @@ header{
    
 }
 
-
-
 .nav-links{
-    margin-left: 15em;
+    margin-left: 11em;
+    word-spacing: 10px;
    
-
-    
 }
 
 .nav-links>a{
-    margin-right: 1.7em;
-   
-    
+    margin-right: 1.2em;
+      
 }
 
 
 .nav-links i{
-    transform: scale(1.6);
+    transform: scale(1.4);
     color: #252525 ;
     position: fixed center;
     vertical-align: middle;
-    
-    
+   
 }
 
 .container{
     
     margin: 0 15%;
-    padding-top: 40px; 
+    padding-top: 35px; 
 
 }
 .bio{
@@ -157,8 +150,8 @@ header{
 }
 
 .item{
-    height: 21.5em;
-    width: 20.5em;
+    height: 20em;
+    width: 18em;
     background-color: black;
 }
 
@@ -298,9 +291,10 @@ header{
    color: rgb(150, 154, 153);
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 10px;
-   font-size: 14px;
+   font-size: 12px;
    font-stretch: extra-expanded;
-   word-spacing: 19px;
+   word-spacing: 15px;
+  
 }
 
 .ptag{
@@ -314,6 +308,7 @@ header{
 form{
     align-items: center;
     margin-left: 40%;
+    margin-right: 200px;
     color:  rgb(150, 154, 153);
     margin-bottom: 20px;
     border-bottom: 50px transparent #dbdbdb;
@@ -322,6 +317,11 @@ form{
 select{
     border: none;
     color:  rgb(150, 154, 153);
+    margin-bottom: 50px;
+}
+
+.flex-all-center{
+    font-size: 13px;
     
 }
 

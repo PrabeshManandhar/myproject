@@ -4,14 +4,15 @@ body{
 }
 nav {
     background-color: #ffff;
-    height: 3.3em;
-    line-height: 3.3em;
-    margin: 0 13.5em;  
+    height: 3.4em;
+    line-height: 3.6em;
+    margin: 0 9.5em;  
     
 }
 .logo{
     text-decoration: none ;
     /* position: fixed; */
+    margin-left: 50px;
     
     
 }   
@@ -28,8 +29,8 @@ header{
     flex-direction: row;
     border-bottom: 0.1px solid #dbdbdb;
     position: fixed;
-    flex-grow: inherit;
-    flex-shrink: inherit;
+    flex-grow: 1;
+    flex-shrink: 1;
    
 }
 
@@ -40,8 +41,8 @@ header{
 .search{
     background-color: #fafafa;
     margin-left: 19em;
-    height: 1.9em;
-    width: 15.5em;
+    height: 1.7em;
+    width: 15.2em;
     
     border: 1px solid #dbdbdb;
     
@@ -55,18 +56,19 @@ header{
 }
 
 .nav-links{
-    margin-left: 15em;
+    margin-left: 11em;
+    word-spacing: 10px;
    
 }
 
 .nav-links>a{
-    margin-right: 1.5em;
+    margin-right: 1.2em;
       
 }
 
 
 .nav-links i{
-    transform: scale(1.6);
+    transform: scale(1.4);
     color: #252525 ;
     position: fixed center;
     vertical-align: middle;
@@ -87,9 +89,8 @@ header{
     /* border-bottom: 1px solid #dbdbdb; */
     border-right: 1px solid #dbdbdb ;
     border-left: 1px solid #dbdbdb;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     /* padding-left: 50px;
     padding-right: 20px; */
     /* align-content: space-between; */
@@ -108,26 +109,28 @@ header{
    
 }
 
-/* 
-.second>div>img{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-left: 70px;
+.story{
     border-left: 1px solid #dbdbdb;
-    border-radius: 50%;
-    margin-top: 10px;
-   
-} */
-
-/* .one>img{
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    flex-direction: column;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    margin-left: 240px;
+    margin-right: 40px;
+    word-spacing: 4px;
+    /* align-content: space-between; */
     
-} */
+    
+}
 
+.all1{
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    margin-right: 40px;
+    margin-left: 240px;
+    margin-top: 30px;
+
+}
 
 
 .card-item{
@@ -154,17 +157,17 @@ header{
 
 .card-item >.userName{
     display:flex;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .class-item1>.username{
     display:flex;
-    padding-left: 20px;
+    padding-left: 10px;
 }
     
 .class-item2>.username{
     display:flex;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .like{
@@ -174,7 +177,7 @@ header{
 }
 .like >img{
     padding-top: 11px;
-    padding-left: 20px;
+    padding-left: 10px;
     cursor: pointer;
     
     
@@ -187,25 +190,10 @@ header{
 
 }
 
-.story{
-    border-left: 1px solid #dbdbdb;
-    border-right: 1px solid #dbdbdb;
-    border-bottom: 1px solid #dbdbdb;
-    margin-left: 270px;
-    margin-right: 25px;
-    
-}
 
-.all1{
-    border-right: 1px solid #dbdbdb;
-    border-left: 1px solid #dbdbdb;
-    border-top: 1px solid #dbdbdb;
-    border-bottom: 1px solid #dbdbdb;
-    margin-right: 25px;
-    margin-left: 270px;
-    margin-top: 40px;
 
-}
+
+
 /* .all1{
     border-right: 1px solid #dbdbdb;
 } */
@@ -237,7 +225,7 @@ header{
     margin-top: 10px;
     font-size: 10px;
     font-stretch: extra-expanded;
-    word-spacing: 20px;
+    word-spacing: 15px;
  }
 
  form{
